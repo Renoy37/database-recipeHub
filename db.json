@@ -1,9 +1,60 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "meals": [
+    {
+      "name": "Spaghetti Carbonara",
+      "image": "https://www.example.com/spaghetti_carbonara.jpg",
+      "category": "Italian",
+      "instructions": "1. Boil spaghetti. 2. Cook bacon. 3. Mix eggs, cheese, and pepper. 4. Combine all ingredients.",
+      "id": 1
+    },
+    {
+      "name": "Chicken Curry",
+      "image": "https://www.example.com/chicken_curry.jpg",
+      "category": "Indian",
+      "instructions": "1. Sauté onions, garlic, and ginger. 2. Add chicken and spices. 3. Simmer until cooked.",
+      "id": 2
+    },
+    {
+      "name": "Caesar Salad",
+      "image": "https://www.example.com/caesar_salad.jpg",
+      "category": "Salad",
+      "instructions": "1. Toss lettuce with dressing. 2. Add croutons and Parmesan cheese. 3. Serve.",
+      "id": 3
+    },
+    {
+      "name": "Beef Tacos",
+      "image": "https://www.example.com/beef_tacos.jpg",
+      "category": "Mexican",
+      "instructions": "1. Cook ground beef with taco seasoning. 2. Warm tortillas. 3. Assemble tacos with desired toppings.",
+      "id": 4
+    },
+    {
+      "name": "Mushroom Risotto",
+      "image": "https://www.example.com/mushroom_risotto.jpg",
+      "category": "Italian",
+      "instructions": "1. Sauté mushrooms and onions. 2. Add Arborio rice and broth gradually. 3. Stir until creamy.",
+      "id": 5
+    },
+    {
+      "name": "Grilled Salmon",
+      "image": "https://www.example.com/grilled_salmon.jpg",
+      "category": "Seafood",
+      "instructions": "1. Marinate salmon with olive oil, lemon, and herbs. 2. Grill until cooked through. 3. Serve.",
+      "id": 6
+    },
+    {
+      "name": "Vegetable Stir-Fry",
+      "image": "https://www.example.com/vegetable_stir_fry.jpg",
+      "category": "Asian",
+      "instructions": "1. Stir-fry vegetables in sesame oil. 2. Add soy sauce and garlic. 3. Serve over rice.",
+      "id": 7
+    },
+    {
+      "name": "Chocolate Cake",
+      "image": "https://www.example.com/chocolate_cake.jpg",
+      "category": "Dessert",
+      "instructions": "1. Mix flour, cocoa powder, sugar, and eggs. 2. Bake until set. 3. Frost and decorate as desired.",
+      "id": 8
+    }
+  ]
 }
